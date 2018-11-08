@@ -4,9 +4,9 @@ import './App.css';
 
 import Header from "./Header";
 import Footer from "./Footer";
+import Home from "./Home";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-const Home = () => <h2>Home</h2>;
 const About = () => <h2>About</h2>;
 const Topic = ({ match }) => <h3>Requested Param: {match.params.id}</h3>;
 const Topics = ({ match }) => (

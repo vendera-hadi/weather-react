@@ -30,3 +30,11 @@
     transform: rotate(360deg);
   }
 }
+
+/* additional */
+.mt-30{
+  margin-top:30px !important;
+}
+.mb-30{
+  margin-bottom: 30px !important;
+}
